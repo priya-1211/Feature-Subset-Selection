@@ -1,4 +1,5 @@
-fss_Algorithms <- function(data,Fss_Alg=c("FCBF","CFS","Fisher","mRMRe","ReliefF","RRE","ARRE"),corr.threshold=0.6){
+##  Execute different feature selection algorithms using the function fss_Algorithms
+fss_Algorithms <- function(data,Fss_Alg=c("FCBF","CFS","Fisher","mRMRe","ReliefF","RRE"),corr.threshold=0.6){
   library(Biocomb)
   # source('E:/TO_upload/3.Implementation/SourceFunctions.R')
   # SourceFunctions()
